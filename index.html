@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algorithm Visualizer | Capstone Project</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card mt-2 text-center text-white bg-info">
+            <div class="card-body">
+              <h2>Algorithm Visualizer</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col-md-3">
+          <div class="col-md-12 mt-2">
+            <h5 class="text-success"><b>Step 1</b></h5>
+          </div>
+
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="">Data set size <small>(Max: 15)</small></label>
+              <input
+                type="text"
+                class="form-control mt-2"
+                style="width: 180px;"
+                id="inputDatasetSize"
+              />
+            </div>
+            <button class="btn btn-primary" id="btnRandomInteger">
+              Select random integer
+            </button>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="col-md-12 mt-2">
+            <h5 class="text-success"><b>Step 2</b></h5>
+          </div>
+
+          <div class="col-md-12">
+            <label for="">Select algorithm</label>
+            <div class="clearfix"></div>
+            <label class="form-check-label">
+              <input
+                type="radio"
+                class="form-check-input"
+                name="algorithm"
+                value="1"
+                id="radioLinearSearch"
+              />
+              linear search
+            </label>
+
+            <label class="form-check-label">
+              <input
+                type="radio"
+                class="form-check-input"
+                name="algorithm"
+                value="2"
+                id="radioBinarySearch"
+              />
+              binary search
+            </label>
+
+            <label class="form-check-label">
+              <input
+                type="radio"
+                class="form-check-input"
+                name="algorithm"
+                value="3"
+                id="radioSelectionSort"
+              />
+              selection sort
+            </label>
+
+            <label class="form-check-label">
+              <input
+                type="radio"
+                class="form-check-input"
+                name="algorithm"
+                value="4"
+                id="radioBubbleSort"
+              />
+              bubble sort
+            </label>
+          </div>
+
+          <div class="col-md-12">
+            <div class="form-group mt-2">
+              <input
+                type="text"
+                class="form-control"
+                style="width: 250px;display: none;"
+                placeholder="search value in dataset"
+                id="inputSearchValue"
+              />
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-6">
+                <button class="btn btn-primary" id="btnRunAlgorithm">
+                  Run Algorithm <i class="fa fa-play"></i>
+                </button>
+
+                <button class="btn btn-warning" id="btnResetAlgorithm">
+                  Reset <i class="fa fa-pause"></i>
+                </button>
+              </div>
+              <div class="col-md-6 pt-2" style="font-size: 20px;">
+                <b>Result Index :</b>
+                <span
+                  id="resultIndex"
+                  class="blinking"
+                  style="font-weight: 900;"
+                >
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col-md-12">
+          <div class="card mt-2">
+            <div class="card-body" id="dataSetPreview"></div>
+          </div>
+          <div class="card mt-2">
+            <div class="card-body" id="sortedPreview"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

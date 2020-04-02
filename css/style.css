@@ -1,0 +1,46 @@
+.form-check {
+  padding-left: 0px;
+}
+
+.form-check-label {
+  cursor: pointer;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 150px;
+}
+
+.hidden {
+  display: none;
+}
+
+.ctm-badge {
+  padding: 5px 10px;
+  font-size: 18px;
+  width: 50px;
+}
+
+.blinking {
+  animation: blinkingText 1.2s infinite;
+}
+@keyframes blinkingText {
+  0% {
+    color: #28a745;
+  }
+  49% {
+    color: #28a745;
+  }
+  60% {
+    color: transparent;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: #28a745;
+  }
+}
