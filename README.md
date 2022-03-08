@@ -1,4 +1,10 @@
-# capstone-project
-Algorithm Visualizer - Pesto.tech
+# Algorithm Visualizer
 
-<a href="https://sanketr43.github.io/capstone-project/" target="_blank">Preview</a>
+It is simple algorithm visulizer, developed using Javascript. It has following algoritms.
+
+- Linear Search
+- Binary Search
+- Selection Sort
+- Bubble Sort
+
+[Preview](https://sanketr43.github.io/capstone-project/)
