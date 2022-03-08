@@ -1,5 +1,7 @@
 # Algorithm Visualizer
 
+[Preview](https://sanketr43.github.io/algorithm-visualizer/)
+
 It is simple algorithm visulizer, developed using Javascript. It has following algoritms.
 
 - Linear Search
@@ -7,4 +9,4 @@ It is simple algorithm visulizer, developed using Javascript. It has following a
 - Selection Sort
 - Bubble Sort
 
-[Preview](https://sanketr43.github.io/capstone-project/)
+  
