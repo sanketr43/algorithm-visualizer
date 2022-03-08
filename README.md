@@ -10,4 +10,4 @@ It is simple algorithm visulizer, developed using Javascript. It has following a
 - Bubble Sort
 
 
-![Algorithm-Visualizer-Capstone-Project](https://user-images.githubusercontent.com/13629962/157187665-16ed3195-0239-435f-871c-ca0875297fc7.png)
+![Algorithm-Visualizer-Capstone-Project (1)](https://user-images.githubusercontent.com/13629962/157187956-9092e193-1359-4b79-bea5-2fe30ff4adf8.png)
